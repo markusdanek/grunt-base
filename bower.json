@@ -1,0 +1,19 @@
+{
+  "name": "grunt-base",
+  "version": "0.1.0",
+  "authors": [
+    "Markus Danek <markus.danek@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "assets/bower_components",
+    "assets/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "latest"
+  }
+}
