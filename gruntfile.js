@@ -77,7 +77,16 @@ module.exports = function(grunt) {
       scripts: {
         files: 'app/**/*.js',
         tasks: ['jshint', 'uglify']
-      }
+      },
+      reload: {
+        files: [
+          'app/**/*',
+        ],
+        tasks: ['compile', 'smalltest'],
+        options: {
+          livereload: true
+        }
+      },
     }
 
   });
