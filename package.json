@@ -8,19 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:markusdanek/grunt-base.git"
+    "url": "git@dev.webducation.at:7999/adls/adls-html-templates.git"
   },
   "author": "Markus Danek",
   "license": "ISC",
   "devDependencies": {
-    "grunt": "~0.4.5",
-    "grunt-contrib-jshint": "latest",
-    "grunt-contrib-uglify": "latest",
-    "jshint-stylish": "latest",
-    "grunt-contrib-less": "latest",
+    "bower": "latest",
+    "grunt": "latest",
     "grunt-contrib-cssmin": "latest",
-    "grunt-contrib-watch": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-sass": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "^0.6.1",
     "grunt-express": "latest",
-    "bower": "latest"
+    "jshint-stylish": "latest"
   }
 }

@@ -1,8 +1,8 @@
 {
-  "name": "grunt-base",
+  "name": "adls-html-templates",
   "version": "0.1.0",
   "authors": [
-    "Markus Danek <markus.danek@gmail.com>"
+    "Markus Danek <markus.danek@webducation.at>"
   ],
   "license": "MIT",
   "ignore": [
