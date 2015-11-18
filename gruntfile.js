@@ -43,17 +43,7 @@ module.exports = function(grunt) {
           style: 'expanded'
         },
         files: {
-          'app/assets/css/variables.css': 'app/assets/sass/variables.sass',
-          'app/assets/css/mixins.css': 'app/assets/sass/mixins.sass',
-          'app/assets/css/typography.css': 'app/assets/sass/typography.sass',
-          'app/assets/css/main.css': 'app/assets/sass/main.sass',
-          'app/assets/css/header.css': 'app/assets/sass/header.sass',
-          'app/assets/css/footer.css': 'app/assets/sass/footer.sass',
-          'app/assets/css/basic.css': 'app/assets/sass/basic.sass',
-          'app/assets/css/module-list.css': 'app/assets/sass/module-list.sass',
-          'app/assets/css/section-overview.css': 'app/assets/sass/section-overview.sass',
-          'app/assets/css/old-wbt-show.css': 'app/assets/sass/old-wbt-show.sass',
-          'app/assets/css/section_content_layout.css': 'app/assets/sass/section_content_layout.sass'
+          'app/assets/css/main.css': 'app/assets/sass/main.sass'
         }
       }
     },
